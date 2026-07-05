@@ -27,10 +27,11 @@ nav a {
   font-size: 2rem;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 
 .banner:hover .bannertext {
-  opacity: 0;
+  opacity: 1;
   background-color: rgba(0, 0, 0, 0.8);
-  transition: opacity 0.3s;
 }
