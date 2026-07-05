@@ -1,0 +1,30 @@
+nav {
+  display: flex;
+  gap: 10px;
+}
+nav a {
+  color: #00838f;
+  padding: 12px;
+  text-decoration: none;
+}
+.banner {
+  position: relative;
+  width: 100%;
+}
+
+.banner img {
+  width: 100%;
+  display: block;
+}
+
+.bannertext {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 97.3%;
+  padding: 20px;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
