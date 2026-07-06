@@ -55,15 +55,28 @@ h2 {
 }
 
 .projectdescription {
-  display: flex;
+  display: grid;
   gap: 5px;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: rgb(97, 162, 168);
 }
 
 .projectdescription img {
   width: 200px;
+  margin-top: 20px;
+}
+
+.project-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #00838f;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
 .hr1 {
