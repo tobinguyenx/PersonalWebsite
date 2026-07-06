@@ -35,3 +35,48 @@ nav a {
   opacity: 1;
   background-color: rgba(0, 0, 0, 0.8);
 }
+
+.intro {
+  text-align: center;
+  color: #00838f;
+  margin-bottom: 20px;
+}
+
+.intro img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+h2 {
+  text-align: center;
+  color: #00838f;
+}
+
+.projectdescription {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.projectdescription img {
+  width: 200px;
+}
+
+.hr1 {
+  width: 40%;
+}
+
+.myphotos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+.myphotos img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
